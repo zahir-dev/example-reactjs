@@ -1,23 +1,47 @@
-import logo from './logo.svg';
 import './App.css';
+import Contact from './components/Contact';
+import Connect from './components/Connect';
+import Detail from './components/Detail';
+
+import { useState } from 'react';
+
 
 function App() {
+  const [detail, setDetail] = useState();
+  const search = window.location.search;
+  const query = new URLSearchParams(search);
+  const token = query.get('token');
+  const slug = query.get('slug');
+
+  const handleSelect = (item) => {
+    setDetail(item);
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div
+        className="sidebar"
+      >
+        <Contact
+          token={token}
+          slug={slug}
+          onSelect={handleSelect}
+        />
+      </div>
+      <div>
+        {
+          detail ?
+            <Detail
+              detail={detail}
+              onClose={() => setDetail(null)}
+            />
+            :
+            <Connect
+              token={token}
+              slug={slug}
+            />
+        }
+      </div>
     </div>
   );
 }

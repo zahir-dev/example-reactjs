@@ -1,0 +1,46 @@
+.detail {
+  background-color: #222751;
+  padding-top: 80px;
+}
+
+.detail_container {
+  background-color: white;
+  position: relative;
+  border-radius: 32px 32px 0px 0px;
+}
+
+.detail_wrapper {
+  max-width: 400px;
+  margin: auto;
+}
+
+.detail_title {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+        
+.detail_item {
+  display: flex;
+  margin-bottom: 12px;
+}
+
+.detail_item_icon {
+  margin-right: 16px;
+}
+
+.detail_item_label {
+  font-size: 12px;
+  color: #A2A5BF;
+}
+
+.detail_item_value {
+  font-size: 14px;
+}
+
+.detail_close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
