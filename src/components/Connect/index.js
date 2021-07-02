@@ -7,7 +7,7 @@ export default function Connect({
 
   const handleConnect = () => {
     const redirect_uri = window.location.origin;
-    const client_id = '';
+    const client_id = process.env.ZAHIR_CLIENT_ID;
     const url = `https://developer.zahir.dev/oauth/authorize?redirect_uri=${redirect_uri}&client_id=${client_id}`;
     window.location.href = url;
   }
