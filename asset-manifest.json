@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.cc5615f8.chunk.css",
-    "main.js": "/react-gh-pages/static/js/main.150a509e.chunk.js",
-    "main.js.map": "/react-gh-pages/static/js/main.150a509e.chunk.js.map",
-    "runtime-main.js": "/react-gh-pages/static/js/runtime-main.38a692af.js",
-    "runtime-main.js.map": "/react-gh-pages/static/js/runtime-main.38a692af.js.map",
-    "static/js/2.5f5d1839.chunk.js": "/react-gh-pages/static/js/2.5f5d1839.chunk.js",
-    "static/js/2.5f5d1839.chunk.js.map": "/react-gh-pages/static/js/2.5f5d1839.chunk.js.map",
-    "static/js/3.8c16c72b.chunk.js": "/react-gh-pages/static/js/3.8c16c72b.chunk.js",
-    "static/js/3.8c16c72b.chunk.js.map": "/react-gh-pages/static/js/3.8c16c72b.chunk.js.map",
-    "index.html": "/react-gh-pages/index.html",
-    "static/css/main.cc5615f8.chunk.css.map": "/react-gh-pages/static/css/main.cc5615f8.chunk.css.map",
-    "static/js/2.5f5d1839.chunk.js.LICENSE.txt": "/react-gh-pages/static/js/2.5f5d1839.chunk.js.LICENSE.txt"
+    "main.css": "/example-web-reactjs/static/css/main.cc5615f8.chunk.css",
+    "main.js": "/example-web-reactjs/static/js/main.b120f8b8.chunk.js",
+    "main.js.map": "/example-web-reactjs/static/js/main.b120f8b8.chunk.js.map",
+    "runtime-main.js": "/example-web-reactjs/static/js/runtime-main.80a56cdd.js",
+    "runtime-main.js.map": "/example-web-reactjs/static/js/runtime-main.80a56cdd.js.map",
+    "static/js/2.5f5d1839.chunk.js": "/example-web-reactjs/static/js/2.5f5d1839.chunk.js",
+    "static/js/2.5f5d1839.chunk.js.map": "/example-web-reactjs/static/js/2.5f5d1839.chunk.js.map",
+    "static/js/3.8c16c72b.chunk.js": "/example-web-reactjs/static/js/3.8c16c72b.chunk.js",
+    "static/js/3.8c16c72b.chunk.js.map": "/example-web-reactjs/static/js/3.8c16c72b.chunk.js.map",
+    "index.html": "/example-web-reactjs/index.html",
+    "static/css/main.cc5615f8.chunk.css.map": "/example-web-reactjs/static/css/main.cc5615f8.chunk.css.map",
+    "static/js/2.5f5d1839.chunk.js.LICENSE.txt": "/example-web-reactjs/static/js/2.5f5d1839.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.38a692af.js",
+    "static/js/runtime-main.80a56cdd.js",
     "static/js/2.5f5d1839.chunk.js",
     "static/css/main.cc5615f8.chunk.css",
-    "static/js/main.150a509e.chunk.js"
+    "static/js/main.b120f8b8.chunk.js"
   ]
 }
